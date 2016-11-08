@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="62d3a67a569445d3a0cfd671ea635267" Name="Diagram1">
+        <EntityTypeShape EntityType="nanofinModel.activeproductitem" Width="1.5" PointX="10.5" PointY="37.625" />
+        <EntityTypeShape EntityType="nanofinModel.claim" Width="1.5" PointX="12.75" PointY="31.25" />
+        <EntityTypeShape EntityType="nanofinModel.claimtemplate" Width="1.5" PointX="7.5" PointY="58" />
+        <EntityTypeShape EntityType="nanofinModel.claimuploaddocument" Width="1.5" PointX="8.25" PointY="29" />
+        <EntityTypeShape EntityType="nanofinModel.consumer" Width="1.5" PointX="8.25" PointY="22.875" />
+        <EntityTypeShape EntityType="nanofinModel.consumergroup" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="nanofinModel.consumerriskvalue" Width="1.5" PointX="10.5" PointY="23.125" />
+        <EntityTypeShape EntityType="nanofinModel.contactlist" Width="1.5" PointX="5.25" PointY="57.25" />
+        <EntityTypeShape EntityType="nanofinModel.demographicriskvalue" Width="1.5" PointX="2.75" PointY="0.75" />
+        <EntityTypeShape EntityType="nanofinModel.documentspecification" Width="1.5" PointX="9.75" PointY="49.25" />
+        <EntityTypeShape EntityType="nanofinModel.insuranceproduct" Width="1.5" PointX="9.75" PointY="52.5" />
+        <EntityTypeShape EntityType="nanofinModel.insurancetype" Width="1.5" PointX="7.5" PointY="60.5" />
+        <EntityTypeShape EntityType="nanofinModel.location" Width="1.5" PointX="6" PointY="18.375" />
+        <EntityTypeShape EntityType="nanofinModel.notificationlog" Width="1.5" PointX="5.25" PointY="50.625" />
+        <EntityTypeShape EntityType="nanofinModel.processapplication" Width="1.5" PointX="9.75" PointY="58.5" />
+        <EntityTypeShape EntityType="nanofinModel.product" Width="1.5" PointX="7.5" PointY="52.75" />
+        <EntityTypeShape EntityType="nanofinModel.productprovider" Width="1.5" PointX="5.25" PointY="53.375" />
+        <EntityTypeShape EntityType="nanofinModel.productproviderpayment" Width="1.5" PointX="12.75" PointY="45.625" />
+        <EntityTypeShape EntityType="nanofinModel.productredemptionlog" Width="1.5" PointX="12.75" PointY="37.125" />
+        <EntityTypeShape EntityType="nanofinModel.producttype" Width="1.5" PointX="5.25" PointY="60.125" />
+        <EntityTypeShape EntityType="nanofinModel.reseller" Width="1.5" PointX="5.25" PointY="27.5" />
+        <EntityTypeShape EntityType="nanofinModel.risk_agegroup" Width="1.5" PointX="6" PointY="22.625" />
+        <EntityTypeShape EntityType="nanofinModel.systemadmin" Width="1.5" PointX="5.25" PointY="47.875" />
+        <EntityTypeShape EntityType="nanofinModel.transactiontype" Width="1.5" PointX="8.25" PointY="38.25" />
+        <EntityTypeShape EntityType="nanofinModel.unittype" Width="1.5" PointX="7.5" PointY="49.625" />
+        <EntityTypeShape EntityType="nanofinModel.user" Width="1.5" PointX="3" PointY="26.75" />
+        <EntityTypeShape EntityType="nanofinModel.usertype" Width="1.5" PointX="0.75" PointY="29.75" />
+        <EntityTypeShape EntityType="nanofinModel.validator" Width="1.5" PointX="5.25" PointY="39.25" />
+        <EntityTypeShape EntityType="nanofinModel.voucher" Width="1.5" PointX="8.25" PointY="33.625" />
+        <EntityTypeShape EntityType="nanofinModel.vouchertransaction" Width="1.5" PointX="10.5" PointY="30.25" />
+        <EntityTypeShape EntityType="nanofinModel.vouchertype" Width="1.5" PointX="6" PointY="34.75" />
+        <EntityTypeShape EntityType="nanofinModel.consumerinfosummary" Width="1.5" PointX="2.75" PointY="3.75" />
+        <EntityTypeShape EntityType="nanofinModel.consumermonthlyexpenditure" Width="1.5" PointX="4.75" PointY="0.75" />
+        <EntityTypeShape EntityType="nanofinModel.consumernumclaim" Width="1.5" PointX="4.75" PointY="3.75" />
+        <EntityTypeShape EntityType="nanofinModel.consumerpreference" Width="1.5" PointX="6.75" PointY="0.75" />
+        <EntityTypeShape EntityType="nanofinModel.consumerpreferencesreport" Width="1.5" PointX="6.75" PointY="3.75" />
+        <EntityTypeShape EntityType="nanofinModel.consumerprofiledata" Width="1.5" PointX="4.75" PointY="6.75" />
+        <EntityTypeShape EntityType="nanofinModel.activeproductitemswithdetail" Width="1.5" PointX="6.75" PointY="6.75" />
+        <EntityTypeShape EntityType="nanofinModel.chrisviewconsumeractiveproduct" Width="1.5" PointX="8.75" PointY="0.75" />
+        <EntityTypeShape EntityType="nanofinModel.clientswithunprocessedapplication" Width="1.5" PointX="0.75" PointY="8.75" />
+        <EntityTypeShape EntityType="nanofinModel.currentmonthdailysale" Width="1.5" PointX="8.75" PointY="4.75" />
+        <EntityTypeShape EntityType="nanofinModel.currentmonthproductsale" Width="1.5" PointX="8.75" PointY="7.75" />
+        <EntityTypeShape EntityType="nanofinModel.demographicconsumerproductlocationlastmonthsale" Width="1.5" PointX="10.75" PointY="0.75" />
+        <EntityTypeShape EntityType="nanofinModel.demographicconsumerproductlocationmonthlysale" Width="1.5" PointX="10.75" PointY="5.75" />
+        <EntityTypeShape EntityType="nanofinModel.getallconsumerinformation" Width="1.5" PointX="8.75" PointY="10.75" />
+        <EntityTypeShape EntityType="nanofinModel.individualconsumerprofilerrawdata" Width="1.5" PointX="10.75" PointY="10.75" />
+        <EntityTypeShape EntityType="nanofinModel.insuranceproducttypemonthlysale" Width="1.5" PointX="0.75" PointY="11.75" />
+        <EntityTypeShape EntityType="nanofinModel.lastmonthinsurancetypesale" Width="1.5" PointX="2.75" PointY="11.75" />
+        <EntityTypeShape EntityType="nanofinModel.lastmonthprovincesale" Width="1.5" PointX="12.75" PointY="0.75" />
+        <EntityTypeShape EntityType="nanofinModel.locationsaleslastmonth" Width="1.5" PointX="12.75" PointY="3.75" />
+        <EntityTypeShape EntityType="nanofinModel.monlthlocationsalessum" Width="1.5" PointX="12.75" PointY="7.75" />
+        <EntityTypeShape EntityType="nanofinModel.monthlylocationsale" Width="1.5" PointX="12.75" PointY="11.75" />
+        <EntityTypeShape EntityType="nanofinModel.monthlyproductsalesperlocation" Width="1.5" PointX="4.75" PointY="13.75" />
+        <EntityTypeShape EntityType="nanofinModel.monthlyprovincesalesview" Width="1.5" PointX="14.75" PointY="0.75" />
+        <EntityTypeShape EntityType="nanofinModel.monthlyprovincialproducttypedistribution" Width="1.5" PointX="0.75" PointY="14.75" />
+        <EntityTypeShape EntityType="nanofinModel.otpview" Width="1.5" PointX="14.75" PointY="3.75" />
+        <EntityTypeShape EntityType="nanofinModel.overallproductlocationsale" Width="1.5" PointX="14.75" PointY="6.75" />
+        <EntityTypeShape EntityType="nanofinModel.productlocationmonthlysale" Width="1.5" PointX="14.75" PointY="11.75" />
+        <EntityTypeShape EntityType="nanofinModel.productprovideryearlysale" Width="1.5" PointX="14.75" PointY="14.75" />
+        <EntityTypeShape EntityType="nanofinModel.productsalesandtarget" Width="1.5" PointX="10.75" PointY="15.75" />
+        <EntityTypeShape EntityType="nanofinModel.productsalespermonth" Width="1.5" PointX="16.75" PointY="0.75" />
+        <EntityTypeShape EntityType="nanofinModel.productswithpurchas" Width="1.5" PointX="16.75" PointY="3.75" />
+        <EntityTypeShape EntityType="nanofinModel.provincialinsurancetypesale" Width="1.5" PointX="16.75" PointY="6.75" />
+        <EntityTypeShape EntityType="nanofinModel.provincialproducttypedistributionlastmonth" Width="1.5" PointX="16.75" PointY="9.75" />
+        <EntityTypeShape EntityType="nanofinModel.resavgamountsendpermonth" Width="1.5" PointX="16.75" PointY="12.75" />
+        <EntityTypeShape EntityType="nanofinModel.resellersalespermonth" Width="1.5" PointX="16.75" PointY="15.75" />
+        <EntityTypeShape EntityType="nanofinModel.resellersendmonthlysale" Width="1.5" PointX="0.75" PointY="17.75" />
+        <EntityTypeShape EntityType="nanofinModel.resellersendvouchergenderspecific" Width="1.5" PointX="2.75" PointY="17.75" />
+        <EntityTypeShape EntityType="nanofinModel.resunitssendpermonth" Width="1.5" PointX="12.75" PointY="17.75" />
+        <EntityTypeShape EntityType="nanofinModel.resvouchersendvessold" Width="1.5" PointX="18.75" PointY="0.75" />
+        <EntityTypeShape EntityType="nanofinModel.salespermonth" Width="1.5" PointX="18.75" PointY="3.75" />
+        <EntityTypeShape EntityType="nanofinModel.unprocessedapplication" Width="1.5" PointX="18.75" PointY="6.75" />
+        <AssociationConnector Association="nanofinModel.activeproductitems_ibfk_1" />
+        <AssociationConnector Association="nanofinModel.activeproductitems_ibfk_2" />
+        <AssociationConnector Association="nanofinModel.activeproductitems_ibfk_3" />
+        <AssociationConnector Association="nanofinModel.ActiveProductItems_ID" />
+        <AssociationConnector Association="nanofinModel.claimuploaddocument_ibfk_2" />
+        <AssociationConnector Association="nanofinModel.fk_transactionlocation" />
+        <AssociationConnector Association="nanofinModel.productproviderpayment_ibfk_2" />
+        <AssociationConnector Association="nanofinModel.productredemptionlog_ibfk_2" />
+        <AssociationConnector Association="nanofinModel.claim_ibfk_1" />
+        <AssociationConnector Association="nanofinModel.Claim_ID" />
+        <AssociationConnector Association="nanofinModel.claimtemplate_ID" />
+        <AssociationConnector Association="nanofinModel.claimuploaddocument_ibfk_1" />
+        <AssociationConnector Association="nanofinModel.claimuploaddocument_ibfk_3" />
+        <AssociationConnector Association="nanofinModel.consumer_ibfk_1" />
+        <AssociationConnector Association="nanofinModel.consumer_ibfk_2" />
+        <AssociationConnector Association="nanofinModel.consumer_ibfk_3" />
+        <AssociationConnector Association="nanofinModel.consumerriskvalues_ibfk_1" />
+        <AssociationConnector Association="nanofinModel.ContactsUserID" />
+        <AssociationConnector Association="nanofinModel.UserID" />
+        <AssociationConnector Association="nanofinModel.documentspecification_ibfk_1" />
+        <AssociationConnector Association="nanofinModel.insuranceproduct_ibfk_1" />
+        <AssociationConnector Association="nanofinModel.insuranceproduct_ibfk_2" />
+        <AssociationConnector Association="nanofinModel.insuranceproduct_ibfk_3" />
+        <AssociationConnector Association="nanofinModel.insuranceproduct_ibfk_4" />
+        <AssociationConnector Association="nanofinModel.reseller_ibfk_2" />
+        <AssociationConnector Association="nanofinModel.notificationlog_ibfk_1" />
+        <AssociationConnector Association="nanofinModel.processapplications_ibfk_1" />
+        <AssociationConnector Association="nanofinModel.product_ibfk_1" />
+        <AssociationConnector Association="nanofinModel.product_ibfk_2" />
+        <AssociationConnector Association="nanofinModel.productprovider_ibfk_1" />
+        <AssociationConnector Association="nanofinModel.productproviderpayment_ibfk_1" />
+        <AssociationConnector Association="nanofinModel.productredemptionlog_ibfk_1" />
+        <AssociationConnector Association="nanofinModel.reseller_ibfk_1" />
+        <AssociationConnector Association="nanofinModel.systemadmin_ibfk_1" />
+        <AssociationConnector Association="nanofinModel.vouchertransaction_ibfk_5" />
+        <AssociationConnector Association="nanofinModel.user_ibfk_1" />
+        <AssociationConnector Association="nanofinModel.validator_ibfk_1" />
+        <AssociationConnector Association="nanofinModel.voucher_ibfk_2" />
+        <AssociationConnector Association="nanofinModel.vouchertransaction_ibfk_3" />
+        <AssociationConnector Association="nanofinModel.vouchertransaction_ibfk_4" />
+        <AssociationConnector Association="nanofinModel.voucher_ibfk_1" />
+        <AssociationConnector Association="nanofinModel.vouchertransaction_ibfk_1" />
+        <AssociationConnector Association="nanofinModel.vouchertransaction_ibfk_2" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
